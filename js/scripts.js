@@ -6,7 +6,7 @@ $(document).ready(() =>{
         time = $("#time").val();
         description = $("#description").val();
 
-        message = `Mr ${user} your ${description} appointment has been reserved for ${time}PM on ${date} is successful`;
+        message = `Mr ${user} your ${description} appointment has been reserved for ${time}PM on ${date}`;
         $("#formOne").hide();
 
         $(".message").html(message);
